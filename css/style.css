@@ -6,14 +6,52 @@
     padding: 0;
 }
 
+/* Sfondo Pagina */
+
 body {
     background-color: rgb(246, 248, 249);
 }
 
-.title-banner {
+/* Sfondo Bianco */
+
+.bg-white {
     background-color: white;
 }
 
+.bg-blue {
+    background-color: #14AAF5;
+}
+
+.title-banner {
+
+    margin-bottom: 30px;
+}
+
+/* Spaziatura Logo */
+
 .logo {
-    padding: 10px 10px;
+    padding: 8px 15px;
+}
+
+/* Centratura Pagina */
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.page-content {
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+.buttons {
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 5px;
+    background-color: white;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 5px;
 }
