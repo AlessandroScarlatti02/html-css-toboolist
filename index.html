@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toboolist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -15,24 +19,25 @@
     </header>
 
     <!-- box lista -->
-    <main class="page-content container bg-white">
+    <main class="">
 
         <!-- Pulsanti -->
-        <section class="buttons">
+        <section class="buttons page-content container bg-white">
 
             <button class="bg-blue">Add Task</button>
             <button>Add Section</button>
 
         </section>
 
-        <section class="list">
+        <section class="page-content container bg-white">
             <div class="list-type">
 
-                <h2>New Task</h2>
+                <h2>&#11206; New Task</h2>
 
                 <ul>
 
-                    <li>&check; Quarterly Newsletter <span>Editorial</span> </li>
+                    <li><span class="status item-green">&check;</span> Quarterly Newsletter <span
+                            class="tags bg-blue">Editorial</span> </li>
 
                 </ul>
 
@@ -40,28 +45,39 @@
 
             <div class="list-type">
 
-                <h2>Today</h2>
+                <h2>&#11206; Today</h2>
 
                 <ul>
 
-                    <li>&check; Recruiting blog post<span>Editorial</span> </li>
-                    <li>&check; Mobile app launch<span>Q1 Goals</span> </li>
-                    <li>&cross; Interview John H.<span>Recruiting</span> </li>
-                    <li>&check; Summit update to mobile storefronts<span>Mobile</span> </li>
+                    <li><span class="status item-green">&check;</span> Recruiting blog post<span
+                            class="tags bg-blue">Editorial</span> </li>
+                    <li><span class="status item-green">&check;</span> Mobile app launch<span class="tags bg-purple">Q1
+                            Goals</span> </li>
+                    <li><span class="status item-red">&cross;</span> Interview John H.<span
+                            class="tags bg-green">Recruiting</span> </li>
+                    <li><span class="status item-green">&check;</span> Summit update to mobile
+                        storefronts<span class="tags bg-orange">Mobile</span> </li>
+
                 </ul>
 
             </div>
 
             <div class="list-type">
 
-                <h2>Upcoming</h2>
+                <h2>&#11206; Upcoming</h2>
 
                 <ul>
 
-                    <li>&cross; Schedule meeting with Alex </li>
-                    <li>&check; Homepage refresh<span>Website</span> </li>
-                    <li>&check; Onboard new Sales team members<span>sales</span> </li>
-                    <li>&check; Review editorial calendar<span>Editorial</span> </li>
+                    <li><span class="status item-red">&cross;</span> Schedule meeting with Alex </li>
+                    <li><span class="status item-green">&check;</span> Homepage refresh<span
+                            class="tags bg-magenta">Website</span>
+                    </li>
+                    <li><span class="status item-green">&check;</span> Onboard new Sales team members<span
+                            class="tags bg-lightgreen">Sales</span>
+                    </li>
+                    <li><span class="status item-green">&check;</span> Review editorial calendar<span
+                            class="tags bg-blue">Editorial</span>
+                    </li>
 
                 </ul>
 

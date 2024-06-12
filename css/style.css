@@ -10,9 +10,10 @@
 
 body {
     background-color: rgb(246, 248, 249);
+    font-family: "Roboto Condensed", sans-serif;
 }
 
-/* Sfondo Bianco */
+/* Sfondi */
 
 .bg-white {
     background-color: white;
@@ -20,6 +21,26 @@ body {
 
 .bg-blue {
     background-color: #14AAF5;
+}
+
+.bg-green {
+    background-color: #2CC6AB;
+}
+
+.bg-purple {
+    background-color: #AB5DE6;
+}
+
+.bg-orange {
+    background-color: #FF9B00;
+}
+
+.bg-magenta {
+    background-color: #EC4A9D;
+}
+
+.bg-lightgreen {
+    background-color: #A3D116;
 }
 
 .title-banner {
@@ -36,17 +57,17 @@ body {
 /* Centratura Pagina */
 
 .container {
-    max-width: 1300px;
+    max-width: 1400px;
     margin: auto;
 }
 
 .page-content {
     padding: 10px 50px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .buttons {
-    margin-bottom: 30px;
+    margin-bottom: 2px;
 }
 
 button {
@@ -54,4 +75,50 @@ button {
     background-color: white;
     border: 1px solid rgb(206, 206, 206);
     border-radius: 5px;
+}
+
+
+.list-type {
+    padding: 15px 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 10px 0;
+}
+
+.status {
+    border: 1px solid;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    font-size: 11px;
+}
+
+.item-red {
+    color: red;
+}
+
+.item-green {
+    color: #2CC6AB;
+}
+
+.tags {
+    border-radius: 10px;
+    padding: 5px 8px;
+    font-size: 10px;
+    color: white;
+    margin: 0 5px;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+span {
+    display: inline-block;
 }
